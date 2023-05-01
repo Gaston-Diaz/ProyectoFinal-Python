@@ -1,47 +1,11 @@
 [
     {
-        "-CODIGO-": "1234",
+        "-CODIGO-": "1",
         "-CANTIDAD-": 2,
         "-PRECIO-": "1500",
         "-CATEGORIAS-": "Almacen",
-        "-FECHA-": "2023-05-01 12:10:48",
+        "-FECHA-": "2023-04-28 14:31:12",
         "Fecha": "",
         "id": 1
-    },
-    {
-        "-CODIGO-": "2345",
-        "-CANTIDAD-": 2,
-        "-PRECIO-": "2500",
-        "-CATEGORIAS-": "Electro",
-        "-FECHA-": "2023-04-28 12:26:24",
-        "Fecha": "",
-        "id": 2
-    },
-    {
-        "-CODIGO-": "123456",
-        "-CANTIDAD-": 1,
-        "-PRECIO-": "3000",
-        "-CATEGORIAS-": "Bazar",
-        "-FECHA-": "2023-04-26 12:57:34",
-        "Fecha": "",
-        "id": 3
-    },
-    {
-        "-CODIGO-": "223",
-        "-CANTIDAD-": 4,
-        "-PRECIO-": "23000",
-        "-CATEGORIAS-": "Electro",
-        "-FECHA-": "2023-04-27 13:06:48",
-        "Fecha": "",
-        "id": 4
-    },
-    {
-        "-CODIGO-": "12",
-        "-CANTIDAD-": 4,
-        "-PRECIO-": "12232",
-        "-CATEGORIAS-": "Limpieza",
-        "-FECHA-": "2023-05-15 13:25:12",
-        "Fecha": "",
-        "id": 5
     }
 ]
