@@ -4,6 +4,7 @@ from src.windows import ver_version
 def start():
     window = loop()
     window.close()
+
 def loop():
     window = ver_version.build()
 
@@ -12,4 +13,5 @@ def loop():
 
         if event in (sg.WIN_CLOSED, "Exit", "-exit", "Salir"):
             break
+        
     return window

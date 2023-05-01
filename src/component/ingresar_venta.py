@@ -17,6 +17,7 @@ def loop():
             break
         elif event == "-GUARDAR-":
             ingresar_venta_handler.agregar_venta(values)
+            sg.Popup("Compra agregada correctamente")
             break
         
     return window

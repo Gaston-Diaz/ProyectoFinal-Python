@@ -25,5 +25,23 @@
         "-FECHA-": "2023-04-26 12:57:34",
         "Fecha": "",
         "id": 3
+    },
+    {
+        "-CODIGO-": "223",
+        "-CANTIDAD-": 4,
+        "-PRECIO-": "23000",
+        "-CATEGORIAS-": "Electro",
+        "-FECHA-": "2023-04-27 13:06:48",
+        "Fecha": "",
+        "id": 4
+    },
+    {
+        "-CODIGO-": "12",
+        "-CANTIDAD-": 4,
+        "-PRECIO-": "12232",
+        "-CATEGORIAS-": "Limpieza",
+        "-FECHA-": "2023-05-15 13:25:12",
+        "Fecha": "",
+        "id": 5
     }
 ]

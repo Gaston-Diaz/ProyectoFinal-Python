@@ -1,6 +1,7 @@
 import PySimpleGUI as sg
 from src.windows import pantalla_principal
 from src.component import ingresar_venta
+from src.component import ver_version
 from src.handlers import ingresar_venta_handler
 
 def start():
@@ -21,9 +22,11 @@ def loop():
 
         if event in (sg.WIN_CLOSED, "Exit", "-exit", "Salir"):
             break
-        elif event == '-INGRESAR_VENTA-':
-            ingresar_venta.start()
-            sg.Popup("Venta agregada correctamente")
+        if event == '-INGRESAR_VENTA-':
+            ingresar_venta.start()    
             window["-TABLA_VENTAS-"].update(ingresar_venta_handler.leer_archivo())
-        
+            
+        if event == '-VER_VERSION-':
+            ver_version.start()
+
     return window

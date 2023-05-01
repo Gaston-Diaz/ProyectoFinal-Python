@@ -7,7 +7,7 @@ def build():
     categorias = ["Almacen","Bazar","Limpieza","Electro","Perfumeria"]
 
     layout = [
-        [sg.Text('Ingresar venta', font=(fonts.font_name,28))],
+        [sg.Text('Ingresar compra', font=(fonts.font_name,28))],
         [sg.HorizontalSeparator()],
         [sg.Text("Codigo",size=(15,1)), sg.Input(size=(10,1), key="-CODIGO-")],
         [sg.Text("Cantidad", size=(15,1)), sg.Spin(list(range(99999)),size=(10,1), key="-CANTIDAD-")],
@@ -18,5 +18,5 @@ def build():
 
     ]
 
-    window = sg.Window('Ingresar venta', layout=layout, font=(fonts.font_name,fonts.font_size),modal=True)
+    window = sg.Window('Ingresar compra', layout=layout, font=(fonts.font_name,fonts.font_size),modal=True)
     return window
