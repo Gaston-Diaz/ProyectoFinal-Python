@@ -23,6 +23,7 @@ def loop():
             break
         elif event == '-INGRESAR_VENTA-':
             ingresar_venta.start()
+            sg.Popup("Venta agregada correctamente")
             window["-TABLA_VENTAS-"].update(ingresar_venta_handler.leer_archivo())
         
     return window
